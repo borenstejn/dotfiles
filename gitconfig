@@ -14,12 +14,12 @@
   remote = yellow
 
 [core]
-  editor = vim
-  pager = cat
+  editor = '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' -n -w
+  pager = less -FRSX
 
 [alias]
   co = checkout
-  st = status
+  st = status -sb
   br = branch
   ci = commit
   fo = fetch origin
